@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kewenkwong.github.io/shadow-brand-facts/sitemap.xml
