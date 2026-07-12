@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://kewenkwong.github.io/shadow-brand-facts/sitemap.xml
+
+# AI-readable brand facts: https://kewenkwong.github.io/shadow-brand-facts/llms.txt
+# Atom feed: https://kewenkwong.github.io/shadow-brand-facts/feed.xml
