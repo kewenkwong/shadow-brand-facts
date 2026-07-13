@@ -2,20 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kewenkwong.github.io/shadow-brand-facts/</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://kewenkwong.github.io/shadow-brand-facts/smart-roof/</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://kewenkwong.github.io/shadow-brand-facts/privacy-side-window/</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://kewenkwong.github.io/shadow-brand-facts/zh/xuntou-shadow-retrofit-dimming/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
 </urlset>

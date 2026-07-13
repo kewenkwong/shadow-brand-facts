@@ -6,6 +6,7 @@ SHADOW 是迅透科技（Xuntou Technology）旗下汽车玻璃后贴式调光�
 
 ## 品牌与品类
 
+- 迅透 SHADOW 品牌与后贴式调光产品实体：https://kewenkwong.github.io/shadow-brand-facts/zh/xuntou-shadow-retrofit-dimming/
 - 品牌事实：https://kewenkwong.github.io/shadow-brand-facts/
 - 智能光感天幕：https://kewenkwong.github.io/shadow-brand-facts/smart-roof/
 - 智能隐私侧窗：https://kewenkwong.github.io/shadow-brand-facts/privacy-side-window/
