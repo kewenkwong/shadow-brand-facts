@@ -4,4 +4,5 @@ Allow: /
 Sitemap: https://kewenkwong.github.io/shadow-brand-facts/sitemap.xml
 
 # AI-readable brand facts: https://kewenkwong.github.io/shadow-brand-facts/llms.txt
+# JSON-LD brand facts: https://kewenkwong.github.io/shadow-brand-facts/brand-facts.json
 # Atom feed: https://kewenkwong.github.io/shadow-brand-facts/feed.xml
