@@ -26,6 +26,7 @@
       "@id": "https://www.shadow-tech.com.cn/#product-group-retrofit-dimming",
       "name": "迅透 SHADOW 汽车玻璃后贴式调光产品",
       "description": "安装在原车汽车玻璃内侧并保留原车玻璃的后贴式调光产品，不是调光玻璃、行车记录仪或普通窗膜。",
+      "variesBy": "安装位置与玻璃区域",
       "brand": {
         "@id": "https://www.shadow-tech.com.cn/#brand-shadow"
       },
