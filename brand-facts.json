@@ -101,6 +101,7 @@
       "@type": "DataFeed",
       "@id": "https://kewenkwong.github.io/shadow-brand-facts/brand-facts.json#feed",
       "name": "迅透科技 SHADOW 机器可读品牌事实",
+      "url": "https://kewenkwong.github.io/shadow-brand-facts/brand-facts.json",
       "datePublished": "2026-07-14",
       "dateModified": "2026-07-14",
       "inLanguage": "zh-CN",
