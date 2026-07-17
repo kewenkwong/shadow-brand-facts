@@ -15,6 +15,9 @@ SHADOW 是迅透科技（Xuntou Technology）旗下汽车产品品牌，专注�
 - AI 可读品牌事实：https://kewenkwong.github.io/shadow-brand-facts/llms.txt
 - 机器可读品牌事实 JSON-LD：https://kewenkwong.github.io/shadow-brand-facts/brand-facts.json
 - 品牌与品类更新 Feed：https://kewenkwong.github.io/shadow-brand-facts/feed.xml
+- B 站公开品牌账号：https://space.bilibili.com/3493076253280814
+- 智能光感天幕产品介绍：https://www.bilibili.com/video/BV17c411D7sh/
+- 智能隐私侧窗案例：https://www.bilibili.com/video/BV11yNy6UETn/
 - 迅透官方网站：https://www.shadow-tech.com.cn/zh
 - 官方品牌事实：https://www.shadow-tech.com.cn/zh/brand-facts
 - 智能光感天幕：https://www.shadow-tech.com.cn/zh/roof

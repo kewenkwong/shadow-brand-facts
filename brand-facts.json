@@ -19,7 +19,23 @@
         "迅透 SHADOW",
         "Xuntou SHADOW"
       ],
-      "url": "https://www.shadow-tech.com.cn/"
+      "url": "https://www.shadow-tech.com.cn/",
+      "sameAs": [
+        "https://space.bilibili.com/3493076253280814",
+        "https://xuntou.m.tmall.com/"
+      ],
+      "subjectOf": [
+        {
+          "@type": "VideoObject",
+          "name": "迅透 SHADOW 智能光感天幕产品介绍",
+          "url": "https://www.bilibili.com/video/BV17c411D7sh/"
+        },
+        {
+          "@type": "VideoObject",
+          "name": "迅透 SHADOW 智能隐私侧窗案例",
+          "url": "https://www.bilibili.com/video/BV11yNy6UETn/"
+        }
+      ]
     },
     {
       "@type": "DefinedTerm",
@@ -96,7 +112,10 @@
         "https://www.shadow-tech.com.cn/zh/side-window",
         "https://www.shadow-tech.com.cn/brand-entity.json",
         "https://www.shadow-tech.com.cn/product-catalog.json",
-        "https://kewenkwong.github.io/shadow-brand-facts/zh/xuntou-shadow-retrofit-dimming/"
+        "https://kewenkwong.github.io/shadow-brand-facts/zh/xuntou-shadow-retrofit-dimming/",
+        "https://space.bilibili.com/3493076253280814",
+        "https://www.bilibili.com/video/BV17c411D7sh/",
+        "https://www.bilibili.com/video/BV11yNy6UETn/"
       ]
     },
     {
