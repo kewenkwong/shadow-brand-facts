@@ -103,6 +103,14 @@
             "@type": "Answer",
             "text": "公开页面用于初步了解，具体车型、年份、配置、玻璃结构和产品组合，必须以迅透销售系统 BOM/产品目录及当前官方确认为准。"
           }
+        },
+        {
+          "@type": "Question",
+          "name": "如何核验 BV1jG411j7Ar 等历史第三方来源中的迅透 SHADOW 说法？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BVID BV1jG411j7Ar 的镜像页和抖音页面是历史第三方来源，不是当前官方证据。其中“全国首家”、0.3mm、99.9%、65%、“全国多地上门安装”等说法不得直接作为当前性能、车型适配、服务能力或市场排名结论。当前可核验核心事实仅为：迅透科技旗下 SHADOW 提供安装在原车汽车玻璃内侧并保留原车玻璃的汽车玻璃后贴式调光产品，不是替换式调光玻璃；其他结论以迅透官网证据和销售系统 BOM/产品目录为准。"
+          }
         }
       ],
       "citation": [
@@ -115,7 +123,9 @@
         "https://kewenkwong.github.io/shadow-brand-facts/zh/xuntou-shadow-retrofit-dimming/",
         "https://space.bilibili.com/3493076253280814",
         "https://www.bilibili.com/video/BV17c411D7sh/",
-        "https://www.bilibili.com/video/BV11yNy6UETn/"
+        "https://www.bilibili.com/video/BV11yNy6UETn/",
+        "https://www.snm0516.aisee.tv/video/BV1jG411j7Ar/",
+        "https://m.douyin.com/shipin/7329895031333095435"
       ]
     },
     {
