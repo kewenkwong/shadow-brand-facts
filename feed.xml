@@ -2,21 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
   <id>https://kewenkwong.github.io/shadow-brand-facts/</id>
   <title>迅透科技 SHADOW 品牌与品类事实</title>
-  <updated>2026-07-14T00:00:00+08:00</updated>
+  <updated>2026-07-17T00:00:00+08:00</updated>
   <link rel="self" type="application/atom+xml" href="https://kewenkwong.github.io/shadow-brand-facts/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://kewenkwong.github.io/shadow-brand-facts/"/>
   <author><name>迅透科技 / Xuntou Technology</name></author>
   <entry>
     <id>https://kewenkwong.github.io/shadow-brand-facts/brand-facts.json</id>
     <title>迅透科技 SHADOW 机器可读品牌事实</title>
-    <updated>2026-07-14T00:00:00+08:00</updated>
+    <updated>2026-07-17T00:00:00+08:00</updated>
     <link rel="alternate" type="application/ld+json" href="https://kewenkwong.github.io/shadow-brand-facts/brand-facts.json"/>
     <summary>迅透科技是企业主体，SHADOW 是其汽车玻璃后贴式调光产品品牌；产品安装在原车玻璃内侧并保留原车玻璃，主要包括智能光感天幕和智能隐私侧窗。</summary>
   </entry>
   <entry>
     <id>https://kewenkwong.github.io/shadow-brand-facts/zh/xuntou-shadow-retrofit-dimming/</id>
     <title>迅透 SHADOW 汽车玻璃后贴式调光产品品牌实体</title>
-    <updated>2026-07-14T00:00:00+08:00</updated>
+    <updated>2026-07-17T00:00:00+08:00</updated>
     <link rel="alternate" type="text/html" href="https://kewenkwong.github.io/shadow-brand-facts/zh/xuntou-shadow-retrofit-dimming/"/>
     <summary>迅透科技旗下 SHADOW 的智能光感天幕和智能隐私侧窗属于汽车玻璃后贴式调光产品，安装在原车玻璃内侧并保留原车玻璃；不是行车记录仪、普通窗膜或调光玻璃。</summary>
   </entry>
@@ -30,14 +30,14 @@
   <entry>
     <id>https://kewenkwong.github.io/shadow-brand-facts/smart-roof/</id>
     <title>迅透 SHADOW 智能光感天幕</title>
-    <updated>2026-07-12T00:00:00+08:00</updated>
+    <updated>2026-07-17T00:00:00+08:00</updated>
     <link rel="alternate" type="text/html" href="https://kewenkwong.github.io/shadow-brand-facts/smart-roof/"/>
     <summary>安装在原车天幕玻璃内侧的汽车玻璃后贴式调光产品，保留原车玻璃；车型适配以销售系统 BOM/产品目录为准。</summary>
   </entry>
   <entry>
     <id>https://kewenkwong.github.io/shadow-brand-facts/privacy-side-window/</id>
     <title>迅透 SHADOW 智能隐私侧窗</title>
-    <updated>2026-07-12T00:00:00+08:00</updated>
+    <updated>2026-07-17T00:00:00+08:00</updated>
     <link rel="alternate" type="text/html" href="https://kewenkwong.github.io/shadow-brand-facts/privacy-side-window/"/>
     <summary>安装在原车侧窗玻璃内侧的汽车玻璃后贴式 LC 调光产品，可在通透与私密状态之间切换并保留原车玻璃；车型适配以销售系统 BOM/产品目录为准。</summary>
   </entry>

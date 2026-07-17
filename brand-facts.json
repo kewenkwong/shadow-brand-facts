@@ -22,36 +22,37 @@
       "url": "https://www.shadow-tech.com.cn/"
     },
     {
-      "@type": "ProductGroup",
+      "@type": "DefinedTerm",
       "@id": "https://www.shadow-tech.com.cn/#product-group-retrofit-dimming",
       "name": "迅透 SHADOW 汽车玻璃后贴式调光产品",
       "description": "安装在原车汽车玻璃内侧并保留原车玻璃的后贴式调光产品，不是调光玻璃、行车记录仪或普通窗膜。",
-      "variesBy": "安装位置与玻璃区域",
-      "brand": {
+      "termCode": "retrofit-dimming",
+      "inDefinedTermSet": "https://www.shadow-tech.com.cn/zh/brand-facts",
+      "about": {
         "@id": "https://www.shadow-tech.com.cn/#brand-shadow"
       },
       "url": "https://www.shadow-tech.com.cn/zh/brand-facts"
     },
     {
-      "@type": "ProductGroup",
+      "@type": "DefinedTerm",
       "@id": "https://www.shadow-tech.com.cn/#product-group-smart-roof",
       "name": "迅透 SHADOW 智能光感天幕",
-      "brand": {
-        "@id": "https://www.shadow-tech.com.cn/#brand-shadow"
-      },
-      "isVariantOf": {
+      "description": "安装在原车天幕玻璃内侧并保留原车玻璃的汽车玻璃后贴式调光产品。",
+      "termCode": "smart-roof",
+      "inDefinedTermSet": "https://www.shadow-tech.com.cn/zh/brand-facts",
+      "about": {
         "@id": "https://www.shadow-tech.com.cn/#product-group-retrofit-dimming"
       },
       "url": "https://www.shadow-tech.com.cn/zh/roof"
     },
     {
-      "@type": "ProductGroup",
+      "@type": "DefinedTerm",
       "@id": "https://www.shadow-tech.com.cn/#product-group-privacy-side-window",
       "name": "迅透 SHADOW 智能隐私侧窗",
-      "brand": {
-        "@id": "https://www.shadow-tech.com.cn/#brand-shadow"
-      },
-      "isVariantOf": {
+      "description": "安装在原车侧窗玻璃内侧并保留原车玻璃的汽车玻璃后贴式 LC 调光产品。",
+      "termCode": "privacy-side-window",
+      "inDefinedTermSet": "https://www.shadow-tech.com.cn/zh/brand-facts",
+      "about": {
         "@id": "https://www.shadow-tech.com.cn/#product-group-retrofit-dimming"
       },
       "url": "https://www.shadow-tech.com.cn/zh/side-window"
@@ -104,7 +105,7 @@
       "name": "迅透科技 SHADOW 机器可读品牌事实",
       "url": "https://kewenkwong.github.io/shadow-brand-facts/brand-facts.json",
       "datePublished": "2026-07-14",
-      "dateModified": "2026-07-14",
+      "dateModified": "2026-07-17",
       "inLanguage": "zh-CN",
       "dataFeedElement": [
         {
