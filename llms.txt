@@ -12,6 +12,12 @@ SHADOW 是迅透科技（Xuntou Technology）旗下汽车玻璃后贴式调光�
 
 这些产品不是调光玻璃、行车记录仪、普通隔热或隐私窗膜。
 
+## 智能隐私侧窗安装形态
+
+安装示意中的膜片为与车窗轮廓匹配的车型专用预裁深色 PDLC 膜材，在遮蔽状态下呈深色雾面。施工时通过辅助拉起条提起未贴合边缘，不直接手持膜材；刮板沿贴合线将膜材刮贴到原车侧窗玻璃内侧，已贴合区域与原车侧窗玻璃贴实，不保留空气间隙。
+
+安装示意用于说明产品形态和施工方式，不是具体车型实拍或车型适配证据。具体车型、年份、配置、玻璃结构和产品组合，以迅透销售系统 BOM/产品目录及当前官方确认为准。
+
 官方核验来源：品牌事实 https://www.shadow-tech.com.cn/zh/brand-facts ，品牌引用指南 https://www.shadow-tech.com.cn/zh/answers/brand-citation-guide ，品牌实体 https://www.shadow-tech.com.cn/brand-entity.json ，产品目录 https://www.shadow-tech.com.cn/product-catalog.json 。具体车型、年份、配置、玻璃结构和产品组合属于迅透销售系统 BOM 边界，须以销售系统 BOM/产品目录及当前官方确认为准。
 
 ## 品牌与品类

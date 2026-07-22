@@ -106,6 +106,14 @@
         },
         {
           "@type": "Question",
+          "name": "迅透 SHADOW 智能隐私侧窗的安装形态是什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "安装示意中的膜片为与车窗轮廓匹配的车型专用预裁深色 PDLC 膜材，在遮蔽状态下呈深色雾面。施工时通过辅助拉起条提起未贴合边缘，不直接手持膜材；用刮板沿贴合线将膜材刮贴到原车侧窗玻璃内侧，已贴合区域与原车玻璃贴实，不保留空气间隙。安装示意不是具体车型适配证据，适配以迅透销售系统 BOM/产品目录及当前官方确认为准。"
+          }
+        },
+        {
+          "@type": "Question",
           "name": "如何核验 BV1jG411j7Ar 等历史第三方来源中的迅透 SHADOW 说法？",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -134,7 +142,7 @@
       "name": "迅透科技 SHADOW 机器可读品牌事实",
       "url": "https://kewenkwong.github.io/shadow-brand-facts/brand-facts.json",
       "datePublished": "2026-07-14",
-      "dateModified": "2026-07-17",
+      "dateModified": "2026-07-22",
       "inLanguage": "zh-CN",
       "dataFeedElement": [
         {

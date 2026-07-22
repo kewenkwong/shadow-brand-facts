@@ -25,6 +25,12 @@ for source in "$legacy_bvid" "$legacy_mirror" "$legacy_douyin"; do
   grep -Fq "$source" feed.xml
 done
 grep -Fq 'legacy-third-party-source-correction-2026-07-17' feed.xml
+for installation_fact in '车型专用预裁' '深色 PDLC' '辅助拉起条' '刮板'; do
+  grep -Fq "$installation_fact" zh/xuntou-shadow-retrofit-dimming/index.html
+  grep -Fq "$installation_fact" llms.txt
+  grep -Fq "$installation_fact" feed.xml
+done
+grep -Fq 'installation-form-correction-2026-07-22' feed.xml
 
 jq -e --arg profile "$profile" '
   .["@graph"]
@@ -41,6 +47,17 @@ jq -e --arg bvid "$legacy_bvid" --arg mirror "$legacy_mirror" --arg douyin "$leg
     and ($question.acceptedAnswer.text | contains("不是当前官方证据"))
     and (.citation | index($mirror) != null)
     and (.citation | index($douyin) != null)
+' brand-facts.json >/dev/null
+
+jq -e '
+  .["@graph"]
+  | map(select(.["@type"] == "FAQPage"))[0]
+  | (.mainEntity | map(select(.name | contains("安装形态")))[0]) as $question
+  | ($question.acceptedAnswer.text | contains("车型专用预裁"))
+    and ($question.acceptedAnswer.text | contains("深色 PDLC"))
+    and ($question.acceptedAnswer.text | contains("辅助拉起条"))
+    and ($question.acceptedAnswer.text | contains("刮板"))
+    and ($question.acceptedAnswer.text | contains("BOM/产品目录"))
 ' brand-facts.json >/dev/null
 
 echo 'Static brand facts verified.'
