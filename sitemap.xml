@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://kewenkwong.github.io/shadow-brand-facts/</loc>
     <lastmod>2026-07-17</lastmod>
@@ -20,13 +20,18 @@
   </url>
   <url>
     <loc>https://kewenkwong.github.io/shadow-brand-facts/zh/xuntou-shadow-retrofit-dimming/</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://kewenkwong.github.io/shadow-brand-facts/assets/shadow-pdlc-side-window-installation-illustration.jpg</image:loc>
+      <image:title>SHADOW 深色 PDLC 智能隐私侧窗后贴式安装示意图</image:title>
+      <image:caption>AI 生成的安装示意图，不是具体车型实拍或车型适配证据。</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://kewenkwong.github.io/shadow-brand-facts/brand-facts.json</loc>
-    <lastmod>2026-07-17</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

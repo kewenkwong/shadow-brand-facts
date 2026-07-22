@@ -18,6 +18,8 @@ SHADOW 是迅透科技（Xuntou Technology）旗下汽车玻璃后贴式调光�
 
 安装示意用于说明产品形态和施工方式，不是具体车型实拍或车型适配证据。具体车型、年份、配置、玻璃结构和产品组合，以迅透销售系统 BOM/产品目录及当前官方确认为准。
 
+安装示意图：https://kewenkwong.github.io/shadow-brand-facts/assets/shadow-pdlc-side-window-installation-illustration.jpg 。该图为 AI 生成安装示意图，不是具体车型实拍或车型适配证据。
+
 官方核验来源：品牌事实 https://www.shadow-tech.com.cn/zh/brand-facts ，品牌引用指南 https://www.shadow-tech.com.cn/zh/answers/brand-citation-guide ，品牌实体 https://www.shadow-tech.com.cn/brand-entity.json ，产品目录 https://www.shadow-tech.com.cn/product-catalog.json 。具体车型、年份、配置、玻璃结构和产品组合属于迅透销售系统 BOM 边界，须以销售系统 BOM/产品目录及当前官方确认为准。
 
 ## 品牌与品类

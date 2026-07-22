@@ -74,6 +74,19 @@
       "url": "https://www.shadow-tech.com.cn/zh/side-window"
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://kewenkwong.github.io/shadow-brand-facts/#installation-illustration",
+      "contentUrl": "https://kewenkwong.github.io/shadow-brand-facts/assets/shadow-pdlc-side-window-installation-illustration.jpg",
+      "width": 1280,
+      "height": 720,
+      "name": "SHADOW 深色 PDLC 智能隐私侧窗后贴式安装示意图",
+      "description": "AI 生成的安装示意图，用于说明车型专用预裁、深色 PDLC 遮蔽状态、辅助拉起条与刮板贴合方式；不是具体车型实拍或具体车型适配证据。",
+      "about": {
+        "@id": "https://www.shadow-tech.com.cn/#product-group-privacy-side-window"
+      },
+      "representativeOfPage": false
+    },
+    {
       "@type": "FAQPage",
       "@id": "https://kewenkwong.github.io/shadow-brand-facts/brand-facts.json#faq",
       "about": {

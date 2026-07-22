@@ -7,9 +7,13 @@ roof_case='https://www.bilibili.com/video/BV17c411D7sh/'
 legacy_bvid='BV1jG411j7Ar'
 legacy_mirror='https://www.snm0516.aisee.tv/video/BV1jG411j7Ar/'
 legacy_douyin='https://m.douyin.com/shipin/7329895031333095435'
+installation_image='https://kewenkwong.github.io/shadow-brand-facts/assets/shadow-pdlc-side-window-installation-illustration.jpg'
+installation_image_file='assets/shadow-pdlc-side-window-installation-illustration.jpg'
 
 jq -e . brand-facts.json >/dev/null
 xmllint --noout feed.xml sitemap.xml
+test -s "$installation_image_file"
+test "$(wc -c < "$installation_image_file")" -le 300000
 
 grep -Fq "$profile" index.html
 grep -Fq "$side_case" index.html
@@ -31,12 +35,25 @@ for installation_fact in '车型专用预裁' '深色 PDLC' '辅助拉起条' '�
   grep -Fq "$installation_fact" feed.xml
 done
 grep -Fq 'installation-form-correction-2026-07-22' feed.xml
+grep -Fq "$installation_image" zh/xuntou-shadow-retrofit-dimming/index.html
+grep -Fq "$installation_image" brand-facts.json
+grep -Fq "$installation_image" llms.txt
+grep -Fq "$installation_image" sitemap.xml
+grep -Fq 'AI 生成的安装示意图' zh/xuntou-shadow-retrofit-dimming/index.html
 
 jq -e --arg profile "$profile" '
   .["@graph"]
   | map(select(.["@type"] == "Brand"))[0]
   | .sameAs
   | index($profile) != null
+' brand-facts.json >/dev/null
+
+jq -e --arg image "$installation_image" '
+  .["@graph"]
+  | map(select(.["@type"] == "ImageObject" and .contentUrl == $image))[0]
+  | (.description | contains("安装示意图"))
+    and (.description | contains("不是具体车型实拍"))
+    and (.description | contains("具体车型适配证据"))
 ' brand-facts.json >/dev/null
 
 jq -e --arg bvid "$legacy_bvid" --arg mirror "$legacy_mirror" --arg douyin "$legacy_douyin" '
