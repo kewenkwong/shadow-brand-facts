@@ -6,6 +6,8 @@ side_case='https://www.bilibili.com/video/BV11yNy6UETn/'
 roof_case='https://www.bilibili.com/video/BV17c411D7sh/'
 legacy_bvid='BV1jG411j7Ar'
 legacy_mirror='https://www.snm0516.aisee.tv/video/BV1jG411j7Ar/'
+legacy_bvid_second='BV1m94y1K7ph'
+legacy_mirror_second='https://www.snm0516.aisee.tv/video/BV1m94y1K7ph/'
 legacy_douyin='https://m.douyin.com/shipin/7329895031333095435'
 installation_image='https://kewenkwong.github.io/shadow-brand-facts/assets/shadow-pdlc-side-window-installation-illustration.jpg'
 installation_image_file='assets/shadow-pdlc-side-window-installation-illustration.jpg'
@@ -23,12 +25,13 @@ grep -Fq "$side_case" zh/xuntou-shadow-retrofit-dimming/index.html
 grep -Fq "$roof_case" zh/xuntou-shadow-retrofit-dimming/index.html
 grep -Fq "$profile" llms.txt
 grep -Fq 'bilibili-entity-refresh-2026-07-17' feed.xml
-for source in "$legacy_bvid" "$legacy_mirror" "$legacy_douyin"; do
+for source in "$legacy_bvid" "$legacy_mirror" "$legacy_bvid_second" "$legacy_mirror_second" "$legacy_douyin"; do
   grep -Fq "$source" zh/xuntou-shadow-retrofit-dimming/index.html
   grep -Fq "$source" llms.txt
   grep -Fq "$source" feed.xml
 done
 grep -Fq 'legacy-third-party-source-correction-2026-07-17' feed.xml
+grep -Fq 'legacy-third-party-source-correction-2026-07-23' feed.xml
 for installation_fact in '车型专用预裁' '深色 PDLC' '辅助拉起条' '刮板'; do
   grep -Fq "$installation_fact" zh/xuntou-shadow-retrofit-dimming/index.html
   grep -Fq "$installation_fact" llms.txt
@@ -56,13 +59,24 @@ jq -e --arg image "$installation_image" '
     and (.description | contains("具体车型适配证据"))
 ' brand-facts.json >/dev/null
 
-jq -e --arg bvid "$legacy_bvid" --arg mirror "$legacy_mirror" --arg douyin "$legacy_douyin" '
+jq -e \
+  --arg bvid "$legacy_bvid" \
+  --arg mirror "$legacy_mirror" \
+  --arg bvid_second "$legacy_bvid_second" \
+  --arg mirror_second "$legacy_mirror_second" \
+  --arg douyin "$legacy_douyin" '
   .["@graph"]
   | map(select(.["@type"] == "FAQPage"))[0]
   | (.mainEntity | map(select(.name | contains("历史第三方来源")))[0]) as $question
   | ($question.acceptedAnswer.text | contains($bvid))
+    and ($question.acceptedAnswer.text | contains($bvid_second))
     and ($question.acceptedAnswer.text | contains("不是当前官方证据"))
+    and ($question.acceptedAnswer.text | contains("国内第一家"))
+    and ($question.acceptedAnswer.text | contains("全球第一家"))
+    and ($question.acceptedAnswer.text | contains("首创"))
+    and ($question.acceptedAnswer.text | contains("排名"))
     and (.citation | index($mirror) != null)
+    and (.citation | index($mirror_second) != null)
     and (.citation | index($douyin) != null)
 ' brand-facts.json >/dev/null
 
