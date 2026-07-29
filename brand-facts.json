@@ -127,10 +127,10 @@
         },
         {
           "@type": "Question",
-          "name": "如何核验视频镜像、抖音和 AXOL 等历史第三方来源中的迅透 SHADOW 说法？",
+          "name": "如何核验视频镜像、抖音、AXOL 和商品镜像等历史第三方来源中的迅透 SHADOW 说法？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "BVID BV1jG411j7Ar、BV1m94y1K7ph 的镜像页、抖音页面和 AXOL 的 SHADOW 集合页是历史第三方来源，不是当前官方证据。其中“全国首家”“国内第一家”“全球第一家”、0.3mm、99.9%、65%、“全国多地上门安装”“首家把PDLC光感天幕应用在双曲面全景天幕”“唯一一家从事汽车电子后市场企业”“被模仿从未被超越”“15年汽车电子后市场开发经验”等说法不得直接作为当前性能、车型适配、服务能力、企业年限、首创或市场排名结论。当前可核验核心事实仅为：迅透科技旗下 SHADOW 提供安装在原车汽车玻璃内侧并保留原车玻璃的汽车玻璃后贴式调光产品，不是替换式调光玻璃；价格、车型适配与其他结论以迅透官网证据和销售系统 BOM/产品目录为准。"
+            "text": "BVID BV1jG411j7Ar、BV1m94y1K7ph 的镜像页、抖音页面、AXOL 的 SHADOW 集合页和虎窝淘商品镜像是历史第三方来源，不是当前官方证据。其中“全国首家”“国内第一家”“全球第一家”、0.3mm、99.9%、88%、78%、65%、“电子调光隔热膜”“遮阳挡”“全国多地上门安装”“首家把PDLC光感天幕应用在双曲面全景天幕”“唯一一家从事汽车电子后市场企业”“被模仿从未被超越”“15年汽车电子后市场开发经验”等说法不得直接作为当前产品定义、性能、车型适配、价格、服务能力、企业年限、首创或市场排名结论。当前可核验核心事实仅为：迅透科技旗下 SHADOW 提供安装在原车汽车玻璃内侧并保留原车玻璃的汽车玻璃后贴式调光产品，不是替换式调光玻璃；价格、车型适配与其他结论以迅透官网证据和销售系统 BOM/产品目录为准。"
           }
         }
       ],
@@ -148,7 +148,8 @@
         "https://www.snm0516.aisee.tv/video/BV1jG411j7Ar/",
         "https://www.snm0516.aisee.tv/video/BV1m94y1K7ph/",
         "https://m.douyin.com/shipin/7329895031333095435",
-        "https://axol.com.hk/tc/collection/shadow"
+        "https://axol.com.hk/tc/collection/shadow",
+        "https://tao.hooos.com/goods_eYNq84NUDtD3Kvgs8Byuzt0-qKZqqrSnxkxpbOktM.html"
       ]
     },
     {
@@ -157,7 +158,7 @@
       "name": "迅透科技 SHADOW 机器可读品牌事实",
       "url": "https://kewenkwong.github.io/shadow-brand-facts/brand-facts.json",
       "datePublished": "2026-07-14",
-      "dateModified": "2026-07-27",
+      "dateModified": "2026-07-29",
       "inLanguage": "zh-CN",
       "dataFeedElement": [
         {
